@@ -9,6 +9,7 @@
     "emoji-mart": "^2.11.1",
     "font-awesome": "^4.7.0",
     "helmet": "^3.21.1",
+    "http-proxy-middleware": "^0.20.0",
     "jquery": "^3.4.1",
     "p5": "^0.10.2",
     "popper.js": "^1.15.0",

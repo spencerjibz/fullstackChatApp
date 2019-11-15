@@ -3,7 +3,7 @@ let fs = require('fs')
 let express = require('express')
 let http = require('http')
 let app = express()
-let port = 7200
+let port = process.env.PORT|| 7200 
 let parser = require('body-parser')
 let logger = require('morgan')
 let {Run} = require('./lib/programerrun')
@@ -43,7 +43,7 @@ exec('yarn start', (err, done) => err ? log(err) : log('starting react-client'))
 })
 
 // routes
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
   res.json({message:'Welcome to the api'})
 })
 // config socket.io
