@@ -3,7 +3,7 @@ let fs = require('fs')
 let express = require('express')
 let http = require('http')
 let app = express()
-let port = 7000
+let port = 7200
 let parser = require('body-parser')
 let logger = require('morgan')
 let {Run} = require('./lib/programerrun')
@@ -213,3 +213,12 @@ let stream = new Readable({objectMode: true,
 
     })
 })
+// Serve static assets if in production
+if (process.env.NODE_ENV === 'production') {
+    // set static folder
+    app.use(express.static('client/build'))
+
+    app.use('*', (req, res) => {
+        res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
+    })
+}
