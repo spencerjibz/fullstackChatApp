@@ -10,16 +10,19 @@ FULLSTACK CHAT APP BUILT WITH SOCKET.IO, NODEJS, REACT, JQUERY AND P5JS
 - Send files (images and voice messages) (P5js for voice recording) 
 - Typing notifications
 - Videochat (to be implemented using webRTC)
+## Preview
+![](https://raw.githubusercontent.com/spencerjibz/fullstackChatApp/master/client/public/Good%20illustion.PNG)
 
 ## Usage
  1 .**[checkout the LiveDemo](https://cryptic-beach-52190.herokuapp.com/)**
  
- 2 .**For copy of the app**
+ 2 .**Make a  copy of the app and run it**
  
  - clone the repo or download zipped folder
  
-  ``` git clone https://github.com/spencerjibz/fullstack.git && cd MERNAPP && npm install ```
-
+  ``` git clone https://github.com/spencerjibz/fullstackChatApp.git && cd MERNAPP && npm install ```
+  - Run the app. <br> 
+  `` npm start ``
 
 ### License
   [MIT](https://github.com/spencerjibz/mongoCli-client/blob/master/LICENSE)
