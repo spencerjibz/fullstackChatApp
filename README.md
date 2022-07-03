@@ -14,7 +14,7 @@ FULLSTACK CHAT APP BUILT WITH SOCKET.IO, NODEJS, REACT, JQUERY AND P5JS
 ![](https://raw.githubusercontent.com/spencerjibz/fullstackChatApp/master/client/public/Good%20illustion.PNG)
 
 ## Usage
- 1 .**[checkout the LiveDemo](https://cryptic-beach-52190.herokuapp.com/)**
+ 1 .**[checkout the LiveDemo](https://full-stackchatapp1.herokuapp.com/)**
  
  2 .**Make a  copy of the app and run it**
  
