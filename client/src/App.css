@@ -1,4 +1,4 @@
-#root{
+#root {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,29 +20,27 @@
   height: 92vh;
   min-height: 300px;
   max-height: 720px;
-  background: #E6EAEA;
+  background: #e6eaea;
 }
 
-#frame #init{
-  width:50%;
-  min-width:400px;
-  max-width:500px;
-  overflow:hidden;
-  
+#frame #init {
+  width: 50%;
+  min-width: 400px;
+  max-width: 500px;
+  overflow: hidden;
 }
 .ion-md-exit {
   font-size: 55px;
 }
 
 #ChatBox {
-width: 95%;
-min-width: 360px;
-max-width: 1000px;
-height: 92vh;
-min-height: 300px;
-max-height: 720px;
-background: #E6EAEA;
-
+  width: 95%;
+  min-width: 360px;
+  max-width: 1000px;
+  height: 92vh;
+  min-height: 300px;
+  max-height: 720px;
+  background: #e6eaea;
 }
 
 @media screen and (max-width: 360px) {
@@ -58,27 +56,26 @@ background: #E6EAEA;
   max-width: 340px;
   width: 40%;
   height: 100%;
-  background:#2c3e5042;
+  background: #2c3e5042;
 
   overflow: hidden;
   position: relative;
 }
 
-
-#upload input[type=file] {
-    position: absolute;
-    top: 0;
-    right: 0;
-    min-width: 100%;
-    min-height: 100%;
-    font-size: 100px;
-    text-align: right;
-    filter: alpha(opacity=0);
-    opacity: 0;
-    outline: none;
-    background: white;
-    cursor: inherit;
-    display: block;
+#upload input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
 }
 @media screen and (max-width: 735px) {
   #frame #sidepanel {
@@ -100,7 +97,6 @@ background: #E6EAEA;
     background: #32465a;
   }
 }
-
 
 #frame #sidepanel #profile .wrap {
   height: 60px;
@@ -126,7 +122,6 @@ background: #E6EAEA;
   height: auto;
   float: left;
   cursor: pointer;
-  
 }
 
 @media screen and (max-width: 735px) {
@@ -135,7 +130,6 @@ background: #E6EAEA;
     margin-left: 4px;
   }
 }
-
 
 #frame #sidepanel #profile .wrap p {
   float: left;
@@ -148,21 +142,11 @@ background: #E6EAEA;
   }
 }
 
-
-
-
-
-
-
 @media screen and (max-width: 735px) {
   #frame #sidepanel #profile .wrap #status-options:before {
     margin-left: 23px;
   }
 }
-
-
-
-
 
 /*
 #frame #sidepanel .list-group-item{
@@ -197,10 +181,6 @@ background: #E6EAEA;
 #frame #sidepanel #contacts li :hover {
   background: #32465a;
 }
-
-
-
-
 
 @media screen and (max-width: 735px) {
   #frame #sidepanel #contacts ul li.contact .wrap {
@@ -278,7 +258,7 @@ background: #E6EAEA;
   border: none;
   padding: 0 2px 0 0;
   margin: 0 0 0 1px;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 #frame #sidepanel #bottom-bar {
@@ -425,7 +405,7 @@ background: #E6EAEA;
 #frame .content .messages ul li {
   display: inline-block;
   clear: both;
-  
+
   margin: 15px 15px 5px 15px;
   width: calc(100% - 25px);
   font-size: 0.9em;
@@ -512,7 +492,7 @@ background: #E6EAEA;
   margin-top: 10px;
   font-size: 1.1em;
   color: #435f7a;
-  opacity: .5;
+  opacity: 0.5;
   cursor: pointer;
 }
 
@@ -542,7 +522,6 @@ background: #E6EAEA;
   width: 80px;
   padding: 12px 0;
   cursor: pointer;
-  
 }
 @media screen and (max-width: 735px) {
   #frame .content .message-input .wrap button {
@@ -557,27 +536,24 @@ background: #E6EAEA;
 #frame .content .message-input .wrap button:focus {
   outline: none;
 }
-#frame .content .message-input .wrap .ion-ios-happy{
-    position: absolute;
-    right: 90px;
-    z-index: 4;
-    margin-top: 10px;
-    font-size: 1.1em;
-    color: #435f7a;
-    opacity: .5;
-    cursor: pointer;
+#frame .content .message-input .wrap .ion-ios-happy {
+  position: absolute;
+  right: 90px;
+  z-index: 4;
+  margin-top: 10px;
+  font-size: 1.1em;
+  color: #435f7a;
+  opacity: 0.5;
+  cursor: pointer;
 }
-#recordBtn,.recordVis{
-
- position: absolute;
-    right: 110px;
-    z-index: 5;
-    margin-top: 10px;
-    font-size: 1.1em;
-    color: #435f7a;
-    opacity: .5;
-    cursor: pointer;
-
-
-
+#recordBtn,
+.recordVis {
+  position: absolute;
+  right: 110px;
+  z-index: 5;
+  margin-top: 10px;
+  font-size: 1.1em;
+  color: #435f7a;
+  opacity: 0.5;
+  cursor: pointer;
 }

@@ -24,22 +24,21 @@ Community maintained typescript definitions are [here](https://github.com/p5-typ
 
 Please post bugs in the correct repository:
 
-* p5.js general and p5.dom: [https://github.com/processing/p5.js/issues](https://github.com/processing/p5.js/issues)
-* p5.sound: [https://github.com/processing/p5.js-sound/issues](https://github.com/processing/p5.js-sound/issues)
-* p5.js website: [https://github.com/processing/p5.js-website/issues](https://github.com/processing/p5.js-website/issues)
-* p5.js web editor: [https://github.com/processing/p5.js-web-editor/issues](https://github.com/processing/p5.js-web-editor/issues)
-
+- p5.js general and p5.dom: [https://github.com/processing/p5.js/issues](https://github.com/processing/p5.js/issues)
+- p5.sound: [https://github.com/processing/p5.js-sound/issues](https://github.com/processing/p5.js-sound/issues)
+- p5.js website: [https://github.com/processing/p5.js-website/issues](https://github.com/processing/p5.js-website/issues)
+- p5.js web editor: [https://github.com/processing/p5.js-web-editor/issues](https://github.com/processing/p5.js-web-editor/issues)
 
 ## Learning
 
 Check out [p5js.org](http://p5js.org) for lots more! Here are some quick-links:
 
-* [Get Started](http://p5js.org/get-started): Create and run your first sketch!
-* [p5.js overview](https://github.com/processing/p5.js/wiki/p5.js-overview) — An overview of the main features and functionality of p5.js.
-* [Reference](http://p5js.org/reference): The functionality supported by p5.js.
-* [Learn](//p5js.org/learn): Tutorials and short, prototypical examples exploring the basics of p5.js.
-* [Forum](http://forum.processing.org/two/categories/p5-js): Ask and answers questions about how to make things with p5.js here.
-* [Libraries](http://p5js.org/libraries): Extend p5 functionality to interact with HTML, manipulate sound, and more!
+- [Get Started](http://p5js.org/get-started): Create and run your first sketch!
+- [p5.js overview](https://github.com/processing/p5.js/wiki/p5.js-overview) — An overview of the main features and functionality of p5.js.
+- [Reference](http://p5js.org/reference): The functionality supported by p5.js.
+- [Learn](//p5js.org/learn): Tutorials and short, prototypical examples exploring the basics of p5.js.
+- [Forum](http://forum.processing.org/two/categories/p5-js): Ask and answers questions about how to make things with p5.js here.
+- [Libraries](http://p5js.org/libraries): Extend p5 functionality to interact with HTML, manipulate sound, and more!
 
 ## Get Involved
 
@@ -327,4 +326,5 @@ We recognize all types of contributions. This project follows the [all-contribut
 </table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key))!
